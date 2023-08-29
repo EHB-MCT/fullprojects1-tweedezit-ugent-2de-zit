@@ -8,7 +8,7 @@
 body {
 	margin: 0;
 	font-family: "Archivo", sans-serif;
-	background-color: #e7edde;
+	background-color: white;
 }
 
 .wrapper {
@@ -24,6 +24,7 @@ body {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	border-bottom: 1px solid#3665b0;
 }
 
 .logo img {
@@ -43,12 +44,39 @@ body {
 
 .navigation ul li a {
 	text-decoration: none;
+	color: #3665b0;
 }
 
-.navigation ul li a.button {
-	padding: 10px 20px;
-	color: #fff;
-	border-radius: 7px;
-	font-weight: bold;
-	text-decoration: none;
+.hero {
+	display: flex;
+	align-items: center;
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+.hero-text {
+	flex: 1;
+	padding-right: 50px;
+	padding-bottom: 50px;
+}
+
+.hero-image {
+	flex: 0;
+}
+
+.hero-text h1 {
+	font-size: 70px;
+	color: #3665b0;
+	height: 200px;
+}
+
+.hero-text h2 {
+	font-size: 50px;
+	color: #3665b0;
+	font-weight: normal;
+}
+
+.hero-text p {
+	font-size: 30px;
+	font-weight: normal;
 }
