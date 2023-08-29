@@ -192,7 +192,12 @@ p {
 	margin-left: 13%;
 	margin-bottom: 10%;
 }
-
+.mvflex img {
+	width: 50%;
+	height: 50%;
+	margin-top: 3%;
+	margin-right: 5%;
+}
 .footer {
 	border-top: 2px solid#3665b0;
 }
@@ -202,32 +207,66 @@ p {
 	border: none;
 	background-color: #3665b0;
 	padding: 16px;
-    margin-right: 10%;
+	margin-right: 50px;
 }
 
+.fcb button {
+	margin-top: 5px;
+	margin-left: 150px;
+	padding: 16px 25px;
+	margin-bottom: 5px;
+}
+
+.link button {
+	margin-top: 5px;
+	padding: 18px 18px;
+	margin-bottom: 5px;
+}
+.twit button {
+	margin-top: 5px;
+	padding: 18.5px 15px;
+	margin-bottom: 5px;
+}
+.ins button {
+	margin-top: 5px;
+	padding: 17.5px 18px;
+	margin-bottom: 5px;
+}
+.you button {
+	margin-top: 5px;
+	padding: 20px 14px;
+	margin-bottom: 5px;
+}
 .social {
 	display: flex;
-
 }
 
 .fcb button:hover {
-	padding: 15px;
 	background-color: #3b5998;
-	margin: 10%;
 }
 .link button:hover {
-	margin-right: 2%;
 	background-color: #0072b1;
 }
 .twit button:hover {
-	margin-right: 2%;
 	background-color: #00acee;
 }
 .ins button:hover {
-	margin-right: 2%;
 	background-color: #ca3387;
 }
 .you button:hover {
-	margin-right: 2%;
 	background-color: red;
+}
+
+.footer p {
+   
+	margin-top: 40px;
+	color: #3665b0;
+	margin-right: 30px;
+	font-family: jaf-bernina-sans-comp, sans-serif;
+	font-weight: 600;
+	font-style: normal;
+	color: #3665b0;
+
+	font-size: 26px;
+
 }
