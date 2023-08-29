@@ -139,11 +139,23 @@ p {
 	text-align: center;
 }
 
-.blfex {
+.blflex {
 	display: flex;
-	flex-direction: column;
+	justify-content: center;
 }
 
+.blflex img {
+	margin-top: -5%;
+	margin-left: 10%;
+}
+.blflex p {
+	text-align: left;
+}
+
+.bttn {
+	display: flex;
+	justify-content: center;
+}
 .bttn p {
 	color: #3665b0;
 	border: 1px;
@@ -178,16 +190,44 @@ p {
 	width: 75%;
 	text-align: left;
 	margin-left: 13%;
-    margin-bottom: 10%;
+	margin-bottom: 10%;
 }
 
-.footer{
-    border-top: 2px solid#3665b0;
+.footer {
+	border-top: 2px solid#3665b0;
+}
+
+.footer button {
+	margin-top: 0.5%;
+	border: none;
+	background-color: #3665b0;
+	padding: 16px;
+    margin-right: 10%;
+}
+
+.social {
+	display: flex;
 
 }
 
-.footer button{
-    border: none;
-    background-color: white;
- 
+.fcb button:hover {
+	padding: 15px;
+	background-color: #3b5998;
+	margin: 10%;
+}
+.link button:hover {
+	margin-right: 2%;
+	background-color: #0072b1;
+}
+.twit button:hover {
+	margin-right: 2%;
+	background-color: #00acee;
+}
+.ins button:hover {
+	margin-right: 2%;
+	background-color: #ca3387;
+}
+.you button:hover {
+	margin-right: 2%;
+	background-color: red;
 }
