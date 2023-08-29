@@ -18,21 +18,6 @@ h1 {
 	margin: 0;
 	letter-spacing: 10px;
 }
-
-.blauweblok h1 {
-	color: #fed206;
-	text-align: center;
-}
-
-.blauweblok p {
-	font-family: jaf-bernino-sans, sans-serif;
-	font-weight: 300;
-	font-style: normal;
-	font-size: 21px;
-	color: white;
-	text-align: left;
-}
-
 h2 {
 	/*Narrow Light*/
 	font-family: jaf-bernina-sans-narrow, sans-serif;
@@ -43,7 +28,6 @@ h2 {
 	white-space: nowrap;
 	margin-bottom: 0;
 }
-
 
 h3 {
 	/*vraagteken*/
@@ -61,17 +45,8 @@ p {
 	font-style: normal;
 	font-size: 21px;
 }
-
-.navigation a {
-	font-family: jaf-bernina-sans-comp, sans-serif;
-	font-weight: 600;
-	font-style: normal;
-	font-size: 26px;
-	letter-spacing: 5px;
-}
-
 .wrapper {
-	width: 90%;
+	width: 100%;
 	height: 1000px;
 	margin: 0 auto;
 }
@@ -105,6 +80,27 @@ p {
 	text-decoration: none;
 	color: #3665b0;
 }
+.blauweblok h1 {
+	color: #fed206;
+	text-align: center;
+}
+
+.blauweblok p {
+	font-family: jaf-bernino-sans, sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	font-size: 21px;
+	color: white;
+	text-align: left;
+}
+
+.navigation a {
+	font-family: jaf-bernina-sans-comp, sans-serif;
+	font-weight: 600;
+	font-style: normal;
+	font-size: 26px;
+	letter-spacing: 5px;
+}
 
 .crea {
 	display: flex;
@@ -113,10 +109,10 @@ p {
 
 .crea img {
 	margin: 0;
-	width: 250%;
+	width: 200%;
 	margin-right: 20%;
-	margin-top: 50%;
-	margin-left: -20%;
+	margin-top: 20%;
+	margin-left: -5%;
 }
 
 .crea-titel h1 {
@@ -132,7 +128,7 @@ p {
 }
 
 .crea-text p {
-	margin-left: 50%;
+	margin-left: 40%;
 	letter-spacing: 2px;
 	line-height: 65px;
 	width: 100%;
@@ -140,10 +136,18 @@ p {
 }
 
 .blauweblok {
-	background-color: #3665b0;
-	margin: 0 auto;
+	background: #3665b0;
+  
 }
+.blauweblok p {
+	text-align: left;
+}
+.blfex {
+    display: flex;
+    flex-direction:column;
 
+
+}
 .bttn p {
 	color: #3665b0;
 	border: 1px;
