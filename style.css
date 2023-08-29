@@ -124,6 +124,7 @@ p {
 
 .blauweblok {
 	background: #3665b0;
+    padding-bottom: 30px;
 }
 .blauweblok h1 {
 	color: #fed206;
@@ -137,6 +138,7 @@ p {
 	font-size: 21px;
 	color: white;
 	text-align: center;
+   
 }
 
 .blflex {
@@ -150,11 +152,14 @@ p {
 }
 .blflex p {
 	text-align: left;
+   
 }
 
 .bttn {
 	display: flex;
 	justify-content: center;
+   
+
 }
 .bttn p {
 	color: #3665b0;
@@ -167,6 +172,10 @@ p {
 	width: 13%;
 	padding: 16px;
 	text-align: center;
+	font-family: jaf-bernina-sans-comp, sans-serif;
+	font-weight: 600;
+	font-style: normal;
+	font-size: 33px;
 }
 
 .bttn p:hover {
@@ -258,15 +267,26 @@ p {
 }
 
 .footer p {
-   
-	margin-top: 40px;
+	margin-top: 25px;
 	color: #3665b0;
 	margin-right: 30px;
 	font-family: jaf-bernina-sans-comp, sans-serif;
 	font-weight: 600;
 	font-style: normal;
 	color: #3665b0;
-
 	font-size: 26px;
+	margin-bottom: 0;
+	letter-spacing: 5px;
+}
 
+.footer a {
+	text-decoration: none;
+	color: #3665b0;
+}
+.footer a:hover {
+	color: #fed206;
+}
+
+.header a:hover {
+	color: #fed206;
 }
