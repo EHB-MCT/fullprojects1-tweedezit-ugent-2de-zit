@@ -1,16 +1,37 @@
-.header {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-}
-@import url("https://fonts.googleapis.com/css2?family=Archivo:wght@700&display=swap");
-
 body {
 	margin: 0;
-	font-family: "Archivo", sans-serif;
-	background-color: white;
 }
 
+h1 {
+	/*Compressed Semi-bold*/
+	font-family: jaf-bernina-sans-comp, sans-serif;
+	font-weight: 600;
+	font-style: normal;
+	font-size: 181px;
+	color: #3665b0;
+}
+
+h2 {
+	/*Narrow Light*/
+	font-family: jaf-bernina-sans-narrow, sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	font-size: 92px;
+	color: #3665b0;
+}
+
+p {
+	/*Light*/
+	font-family: jaf-bernino-sans, sans-serif;
+	font-weight: 300;
+	font-style: normal;
+}
+.navigation a {
+	font-family: jaf-bernina-sans-comp, sans-serif;
+	font-weight: 600;
+	font-style: normal;
+	font-size: 26px;
+}
 .wrapper {
 	width: 90%;
 	height: 1000px;
@@ -47,36 +68,19 @@ body {
 	color: #3665b0;
 }
 
-.hero {
+.crea {
 	display: flex;
 	align-items: center;
 	margin-top: 100px;
 	margin-bottom: 100px;
 }
 
-.hero-text {
+.crea-text {
 	flex: 1;
 	padding-right: 50px;
 	padding-bottom: 50px;
 }
 
-.hero-image {
+.crea-image {
 	flex: 0;
-}
-
-.hero-text h1 {
-	font-size: 70px;
-	color: #3665b0;
-	height: 200px;
-}
-
-.hero-text h2 {
-	font-size: 50px;
-	color: #3665b0;
-	font-weight: normal;
-}
-
-.hero-text p {
-	font-size: 30px;
-	font-weight: normal;
 }
