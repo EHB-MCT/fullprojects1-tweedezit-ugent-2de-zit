@@ -2,6 +2,12 @@ body {
 	margin: 0;
 }
 
+em {
+	font-family: sans-serif;
+	font-style: normal;
+	font-weight: lighter;
+}
+
 h1 {
 	/*Compressed Semi-bold*/
 	font-family: jaf-bernina-sans-comp, sans-serif;
@@ -20,18 +26,29 @@ h2 {
 	color: #3665b0;
 }
 
+h3 {
+	/*vraagteken*/
+	font-family: jaf-bernino-sans, sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	font-size: 289px;
+	color: #3665b0;
+}
+
 p {
 	/*Light*/
 	font-family: jaf-bernino-sans, sans-serif;
 	font-weight: 300;
 	font-style: normal;
 }
+
 .navigation a {
 	font-family: jaf-bernina-sans-comp, sans-serif;
 	font-weight: 600;
 	font-style: normal;
 	font-size: 26px;
 }
+
 .wrapper {
 	width: 90%;
 	height: 1000px;
