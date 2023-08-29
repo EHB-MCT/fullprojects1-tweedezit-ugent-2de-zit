@@ -137,16 +137,13 @@ p {
 
 .blauweblok {
 	background: #3665b0;
-  
 }
 .blauweblok p {
-	text-align: left;
+	text-align: center;
 }
 .blfex {
-    display: flex;
-    flex-direction:column;
-
-
+	display: flex;
+	flex-direction: column;
 }
 .bttn p {
 	color: #3665b0;
