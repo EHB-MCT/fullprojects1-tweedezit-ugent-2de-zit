@@ -19,6 +19,20 @@ h1 {
 	letter-spacing: 10px;
 }
 
+.blauweblok h1 {
+	color: #fed206;
+	text-align: center;
+}
+
+.blauweblok p {
+	font-family: jaf-bernino-sans, sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	font-size: 21px;
+	color: white;
+	text-align: left;
+}
+
 h2 {
 	/*Narrow Light*/
 	font-family: jaf-bernina-sans-narrow, sans-serif;
@@ -29,6 +43,7 @@ h2 {
 	white-space: nowrap;
 	margin-bottom: 0;
 }
+
 
 h3 {
 	/*vraagteken*/
@@ -103,9 +118,11 @@ p {
 	margin-top: 50%;
 	margin-left: -20%;
 }
+
 .crea-titel h1 {
 	margin-top: -6%;
 }
+
 .vraag h1 {
 	font-family: jaf-bernino-sans, sans-serif;
 	font-weight: 300;
@@ -120,4 +137,27 @@ p {
 	line-height: 65px;
 	width: 100%;
 	text-align: right;
+}
+
+.blauweblok {
+	background-color: #3665b0;
+	margin: 0 auto;
+}
+
+.bttn p {
+	color: #3665b0;
+	border: 1px;
+	border-style: solid;
+	border-radius: 10px;
+	border-color: white;
+	background-color: white;
+	margin: 12px;
+	width: 13%;
+	padding: 16px;
+	text-align: center;
+}
+
+.bttn p:hover {
+	border-color: #fed206;
+	background-color: #fed206;
 }
